@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "36330f6c-296f-462f-b473-b817867330a1",
+    "name": "Hearty_FM",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d38c1977-5bab-43d0-8db4-aa6829db78f7",
+    "name": "HEARTY_TUG",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

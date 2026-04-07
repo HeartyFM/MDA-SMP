@@ -1,0 +1,187 @@
+name: '&6Poseidon''s Chainmail'
+lore:
+- '&7Lore: &cDouble Health when swimming'
+- ''
+- '&7&oCreated by: &fSpecial70'
+material: CHAINMAIL_CHESTPLATE
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 0
+usageLimit: -1
+durability: 240
+dropFeatures:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+enchantments:
+  enchant1:
+    enchantment: unbreaking
+    level: 7
+  enchant0:
+    enchantment: protection
+    level: 7
+giveFirstJoinFeatures:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables:
+  x:
+    variableName: x
+    type: NUMBER
+    default: 0.0
+activators:
+  activator1:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with chainmail_chestplate{display:{Name:''{"text":"Poseidon\''s
+      Chainmail","color":"gold","italic":false}'',Lore:[''[{"text":"Lore: ","color":"gray","italic":false},{"text":"Double
+      Health when swimming","color":"red","italic":false}]'']},Unbreakable:1b,PublicBukkitValues:{"executableitems:ei-id":"Prem_Poseidon_Chestplate"},Enchantments:[{id:"minecraft:protection",lvl:7s},{id:"minecraft:unbreaking",lvl:7s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;-1568971370,-180271660,-2042075505,-919347829],Slot:"chest"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:20,Operation:0,UUID:[I;-1163853475,-1561638604,-2043468453,-2131609643],Slot:"chest"}]}
+      1'
+    playerConditions:
+      ifSwimming: true
+      ifSwimmingMsg: ''
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    delay: 1
+    delayInTick: false
+    variablesModification:
+      varModif0:
+        variableName: x
+        type: SET
+        modification: 2.0
+  activator2:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - 38
+    commands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: SUPERIOR
+        part1: '%var_x%'
+        part2: '0.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 1
+    delayInTick: false
+    variablesModification:
+      varModif0:
+        variableName: x
+        type: MODIFICATION
+        modification: -1.0
+  activator3:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems:
+      errorMessage: ''
+    requiredExecutableItems:
+      errorMessage: ''
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with chainmail_chestplate{display:{Name:''{"text":"Poseidon\''s
+      Chainmail","color":"gold","italic":false}'',Lore:[''[{"text":"Lore: ","color":"gray","italic":false},{"text":"Double
+      Health when swimming","color":"red","italic":false}]'']},Unbreakable:1b,PublicBukkitValues:{"executableitems:ei-id":"Prem_Poseidon_Chestplate"},Enchantments:[{id:"minecraft:protection",lvl:7s},{id:"minecraft:unbreaking",lvl:7s}]}
+      1'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_x%'
+        part2: '0.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 1
+    delayInTick: false
+    variablesModification: {}
+recognitions: []
+attributes: {}
+config_5: true
+config_update: true

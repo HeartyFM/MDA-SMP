@@ -1,0 +1,371 @@
+name: '&5◘ &4R&ca&6i&en&2b&ao&bw &3C&9h&1e&ds&5t&4p&cl&6a&et&ae &2◘'
+lore:
+- '&8&m-&4&m-&8&m-&c&m-&8&m-&6&m-&8&m-&e&m-&8&m-&2&m-&8&m-&a&m-&8&m-&b&m-&8&m-&3&m-&8&m-&1&m-&8&m-&9&m-&8&m-'
+- '&7'
+- '&8➤ &7&oWear to produce'
+- '     &7&orainbow particles !'
+- '&7'
+- '&7&o(Click to equip)'
+- '&7'
+- '&8&m-&4&m-&8&m-&c&m-&8&m-&6&m-&8&m-&e&m-&8&m-&2&m-&8&m-&a&m-&8&m-&b&m-&8&m-&3&m-&8&m-&1&m-&8&m-&9&m-&8&m-'
+material: LEATHER_CHESTPLATE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 0
+usageLimit: -1
+dropFeatures:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+enchantments: {}
+giveFirstJoinFeatures:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables:
+  color:
+    variableName: color
+    type: NUMBER
+    default: 0.0
+activators:
+  activator2:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with leather_chestplate{display:{color:16351261,HideFlags:127,Name:''{"text":"§5§5◘
+      §4R§ca§6i§en§2b§ao§bw §3C§9h§1e§ds§5t§4p§cl§6a§et§ae §2◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Chestplate",
+      "executableitems:ei-color": 1.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '0.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator3:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with leather_chestplate{display:{color:16701501,HideFlags:127,Name:''{"text":"§5§5◘
+      §4R§ca§6i§en§2b§ao§bw §3C§9h§1e§ds§5t§4p§cl§6a§et§ae §2◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Chestplate",
+      "executableitems:ei-color": 2.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '1.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator4:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with leather_chestplate{display:{color:8439583,HideFlags:127,Name:''{"text":"§5§5◘
+      §4R§ca§6i§en§2b§ao§bw §3C§9h§1e§ds§5t§4p§cl§6a§et§ae §2◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Chestplate",
+      "executableitems:ei-color": 3.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '2.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator5:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with leather_chestplate{display:{color:3847130,HideFlags:127,Name:''{"text":"§5§5◘
+      §4R§ca§6i§en§2b§ao§bw §3C§9h§1e§ds§5t§4p§cl§6a§et§ae §2◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Chestplate",
+      "executableitems:ei-color": 4.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '3.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator6:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with leather_chestplate{display:{color:13061821,HideFlags:127,Name:''{"text":"§5§5◘
+      §4R§ca§6i§en§2b§ao§bw §3C§9h§1e§ds§5t§4p§cl§6a§et§ae §2◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Chestplate",
+      "executableitems:ei-color": 5.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '4.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator7:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with leather_chestplate{display:{color:8991416,HideFlags:127,Name:''{"text":"§5§5◘
+      §4R§ca§6i§en§2b§ao§bw §3C§9h§1e§ds§5t§4p§cl§6a§et§ae §2◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Chestplate",
+      "executableitems:ei-color": 6.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '5.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator8:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - 'minecraft:item replace entity %player% armor.chest with leather_chestplate{display:{color:11546150,HideFlags:127,Name:''{"text":"§5§5◘
+      §4R§ca§6i§en§2b§ao§bw §3C§9h§1e§ds§5t§4p§cl§6a§et§ae §2◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Chestplate",
+      "executableitems:ei-color": 0.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '6.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+recognitions: []
+armorColor: 0
+attributes: {}
+config_5: true
+config_update: true

@@ -1,0 +1,70 @@
+editor:
+  back:
+    name: "&4&l⬅ &c返回"
+  creation:
+    id:
+      name: "&2&l✚ &a&l创建ID："
+  delete:
+    name: "&4&l✘ &c删除"
+    normal:
+      description: "&4&lX &c点击此处删除"
+    shift:
+      left:
+        description: "&4&lX &c按住Shift + 左键点击删除"
+      description: "&4&lX &c按住Shift + 点击删除"
+    message: "&c如果你想删除%object%"
+  edit:
+    description: "&a✎ 点击此处修改"
+  exit:
+    name: "&4&l✘ &c退出"
+  folder:
+    name: "&2&l✦ 文件夹： &a"
+    description: ["", "&7点击此处打开文件夹"]
+  give:
+    shift:
+      right:
+        description: "&2✔ &a按住Shift + 右键点击给予自己"
+    receivedMessage: "&a你收到了 &e"
+  invalid:
+    file:
+      name: "&4&l✦ 无效文件： &c&o"
+      description: "&7插件只能加载 &e.yml &7文件"
+    configuration:
+      name: "&4&l✦ 无效配置： &c&o"
+      description: "&7你需要编辑你的配置文件"
+      freeLimit: "&7同时确保你没有超过免费版的限制"
+  new:
+    name: "&a&l➕ &a新建"
+  page:
+    name: " - 页面 "
+    next:
+      name: "&d下一页 &5&l▶"
+    previous:
+      name: "&5&l◀ &d上一页"
+  path:
+    name: "&6&l✦ &e路径："
+    description: ["&8&o点击此处返回", "&8&o到上一个文件夹"]
+  premade:
+    premium:
+      name: "&5&l✚ &d默认高级%object%"
+    packs:
+      name: "&5&l✚ &d来自自定义包的%object%"
+  premium:
+    description: "&5&l❂ &d&l仅限高级版 &5&l❂"
+    requirePremiumToAddMore: "&c需要高级版：添加超过%limit%个%object%需要高级版"
+  reset:
+    name: "&4&l✘ &c重置"
+    description:
+      - ""
+      - "&c&o点击此处重置"
+      - "&c&o此创建的所有选项"
+  save:
+    name: "&a&l✔ &a保存"
+    description:
+      - ""
+      - "&a&o点击此处保存"
+      - "&a&o你的配置！"
+  title:
+    color: "&e&l"
+  currently:
+    name: "&7✦ 当前："

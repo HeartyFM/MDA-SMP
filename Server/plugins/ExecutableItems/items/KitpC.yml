@@ -1,0 +1,121 @@
+# El nombre o nombre mostrado
+name: '&f&lKit Pvp &4&lClasico!'
+# La descripción del objeto
+lore: []
+# El material
+material: RED_SHULKER_BOX
+# Efecto de brillo del objeto
+# ⚠ Agrega un encantamiento inútil
+# + oculta encantamientos
+glow: true
+# ¿Desactivar el apilado de objetos?
+disableStack: false
+# ¿Mantener el objeto al morir?
+keepItemOnDeath: false
+# Solo puede ser usado por el propietario
+# ⚠ Requiere Almacenar información del objeto en true
+canBeUsedOnlyByTheOwner: false
+# Cancelar evento si no es propietario
+cancelEventIfNotOwner: false
+# Activadores en Lista Negra
+# (pueden ser usados por todos incluso si
+# la característica de solo propietario está activada)
+onlyOwnerBlackListedActivators: []
+# ¿Almacenar información del objeto?
+# Almacenar la información del objeto como el propietario
+storeItemInfo: false
+# ¿Objeto irrompible?
+unbreakable: false
+# Cancelar el evento si el jugador no tiene permiso
+cancelEventIfNoPermission: false
+# Las características de mundos en lista blanca
+whitelistedWorlds: []
+# Mantener los atributos predeterminados
+# Solo para 1.19+
+keepDefaultAttributes: true
+# Para nuevo objeto DÉJALO FALSO POR FAVOR
+# De lo contrario puedes dejarlo verdadero
+# si quieres actualizar tus objetos antiguos ponlo en FALSO
+# Pero ten cuidado, las etiquetas del objeto pueden cambiar
+# puede afectar a shopkeeper o recetas de crafteo personalizadas
+# Solo para 1.19+
+ignoreKeepDefaultAttributesFeature: false
+config_5: true
+config_update: true
+# Las características de uso
+# Incrementar o Disminuir este uso con
+# UsageModification en tus activadores
+usageFeatures:
+  # El uso del objeto
+  # -1 = Infinito
+  # Incrementar o Disminuir este uso con
+  # UsageModification en tus activadores
+  usage: 1
+  # Es limpieza actualizable
+  isRefreshableClean: true
+  # El límite de uso del objeto
+  # El uso no puede incrementarse por encima de este valor
+  usageLimit: -1
+# Las características de drop
+dropFeatures:
+  # Brillo al soltar
+  glowDrop: false
+  # El color del brillo
+  glowDropColor: WHITE
+  # Mostrar nombre personalizado sobre el objeto
+  displayNameDrop: false
+# Los encantamientos del objeto
+enchantments: {}
+# Las características de ocultación
+# Ocultadores para ocultar:
+# Atributos, Encantamientos, ...
+hiders:
+  # Ocultar encantamientos
+  hideEnchantments: false
+  # Ocultar irrompible
+  hideUnbreakable: false
+  # Ocultar atributos
+  hideAttributes: false
+  # Ocultar uso
+  hideUsage: false
+  # Ocultar destruye
+  hideDestroys: false
+  # Ocultar colocado en
+  hidePlacedOn: false
+  # Ocultar tinte
+  hideDye: false
+  # Ocultar efectos de poción
+  # y etiquetas de estandarte
+  hidePotionEffects: false
+# Las características de dar al primer ingreso
+giveFirstJoinFeatures:
+  # Activar la característica
+  giveFirstJoin: false
+  # La cantidad a dar
+  giveFirstJoinAmount: 1
+  # Ranura entre 0 y 8 inclusive
+  giveFirstJoinSlot: 0
+# Las características de restricciones
+restrictions:
+  # El objeto no puede ser
+  # movido del inventario
+  locked-in-inventory: false
+# Las variables
+# Las variables se usan para almacenar datos como muertes/asesinatos...
+variables: {}
+# Los activadores / disparadores
+activators: {}
+# Mostrar condiciones en la descripción
+displayConditions:
+  #
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # Las condiciones de placeholders
+  placeholdersConditions: {}
+  # Activar o desactivar esta característica
+  enableFeature: false
+# Los atributos
+attributes: {}

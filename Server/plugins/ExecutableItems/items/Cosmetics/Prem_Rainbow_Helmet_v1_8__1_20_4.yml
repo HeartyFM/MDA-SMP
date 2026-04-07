@@ -1,0 +1,532 @@
+name: '&5◘ &4R&ca&6i&en&2b&ao&bw &3H&1e&9l&dm&5e&4t &5◘'
+lore:
+  - '&8&m-&4&m-&8&m-&c&m-&8&m-&6&m-&8&m-&e&m-&8&m-&2&m-&8&m-&a&m-&8&m-&b&m-&8&m-&3&m-&8&m-&1&m-&8&m-&9&m-&8&m-'
+  - '&7'
+  - '&8➤ &7&oWear to produce'
+  - '     &7&orainbow particles !'
+  - '&7'
+  - '&7&o(Click to equip)'
+  - '&7'
+  - '&8&m-&4&m-&8&m-&c&m-&8&m-&6&m-&8&m-&e&m-&8&m-&2&m-&8&m-&a&m-&8&m-&b&m-&8&m-&3&m-&8&m-&1&m-&8&m-&9&m-&8&m-'
+material: RED_STAINED_GLASS
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: true
+config_5_98: true
+onlyOwnerBlackListedActivators: []
+dropFeatures:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+enchantments: {}
+giveFirstJoinFeatures:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables:
+  color:
+    variableName: color
+    type: NUMBER
+    default: 0.0
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}
+activators:
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - -1
+    commands:
+      - HEAD
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+  activator2:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - 'minecraft:item replace entity %player% armor.head with orange_stained_glass{display:{Name:''{"text":"§5◘
+      §4R§ca§6i§en§2b§ao§bw §3H§1e§9l§dm§5e§4t §5◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Helmet",
+      "executableitems:ei-color": 1.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '0.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator3:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - 'minecraft:item replace entity %player% armor.head with yellow_stained_glass{display:{Name:''{"text":"§5◘
+      §4R§ca§6i§en§2b§ao§bw §3H§1e§9l§dm§5e§4t §5◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Helmet",
+      "executableitems:ei-color": 2.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '1.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator4:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - 'minecraft:item replace entity %player% armor.head with green_stained_glass{display:{Name:''{"text":"§5◘
+      §4R§ca§6i§en§2b§ao§bw §3H§1e§9l§dm§5e§4t §5◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Helmet",
+      "executableitems:ei-color": 3.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '2.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator5:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - 'minecraft:item replace entity %player% armor.head with blue_stained_glass{display:{Name:''{"text":"§5◘
+      §4R§ca§6i§en§2b§ao§bw §3H§1e§9l§dm§5e§4t §5◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Helmet",
+      "executableitems:ei-color": 4.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '3.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator6:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - 'minecraft:item replace entity %player% armor.head with magenta_stained_glass{display:{Name:''{"text":"§5◘
+      §4R§ca§6i§en§2b§ao§bw §3H§1e§9l§dm§5e§4t §5◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Helmet",
+      "executableitems:ei-color": 5.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '4.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator7:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - 'minecraft:item replace entity %player% armor.head with purple_stained_glass{display:{Name:''{"text":"§5◘
+      §4R§ca§6i§en§2b§ao§bw §3H§1e§9l§dm§5e§4t §5◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Helmet",
+      "executableitems:ei-color": 6.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '5.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator8:
+    name: '&eActivator'
+    option: LOOP
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - 'minecraft:item replace entity %player% armor.head with red_stained_glass{display:{Name:''{"text":"§5◘
+      §4R§ca§6i§en§2b§ao§bw §3H§1e§9l§dm§5e§4t §5◘"}'',Lore:[''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'',
+      ''{"text":"§7"}'', ''{"text":"§8➤ §7§oWear to produce"}'', ''{"text":"     §7§orainbow
+      particles !"}'', ''{"text":"§7"}'', ''{"text":"§7§o(Click to equip)"}'', ''{"text":"§7"}'',
+      ''{"text":"§8§m-§4§m-§8§m-§c§m-§8§m-§6§m-§8§m-§e§m-§8§m-§2§m-§8§m-§a§m-§8§m-§b§m-§8§m-§3§m-§8§m-§1§m-§8§m-§9§m-§8§m-"}'']},PublicBukkitValues:{"executableitems:ei-id":"Prem_Rainbow_Helmet",
+      "executableitems:ei-color": 0.0d}}'
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: EQUALS
+        part1: '%var_color_int%'
+        part2: '6.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+    delay: 5
+    delayInTick: true
+    variablesModification: {}
+  activator0:
+    name: '&eActivator'
+    option: EI_LEAVE_THE_PLAYER_INVENTORY
+    usageModification: -1
+    cancelEvent: true
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownFeatures:
+      cooldown: 1
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    otherEICooldowns:
+      cd0:
+        executableItem: Prem_Rainbow_Helmet
+        activators:
+          - ALL
+        cooldown: 1
+        isCooldownInTicks: true
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+      - 39
+    commands:
+      - ei give %player% Prem_Rainbow_Helmet 1
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}

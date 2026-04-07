@@ -1,0 +1,70 @@
+editor:
+  back:
+    name: "&4&l⬅ &cVolver"
+  creation:
+    id:
+      name: "&2&l✚ &a&lID de Creación:"
+  delete:
+    name: "&4&l✘ &cEliminar"
+    normal:
+      description: "&4&lX &cHaz clic aquí para eliminar"
+    shift:
+      left:
+        description: "&4&lX &cShift + Clic Izquierdo para eliminar"
+      description: "&4&lX &cShift + Clic para eliminar"
+    message: "&cEi, si quieres eliminar el %object%"
+  edit:
+    description: "&a✎ Haz clic aquí para cambiar"
+  exit:
+    name: "&4&l✘ &cSalir"
+  folder:
+    name: "&2&l✦ CARPETA: &a"
+    description: ["", "&7Haz clic aquí para abrir la carpeta"]
+  give:
+    shift:
+      right:
+        description: "&2✔ &aShift + clic derecho para darte a ti mismo"
+    receivedMessage: "&aHas recibido &e"
+  invalid:
+    file:
+      name: "&4&l✦ ARCHIVO INVÁLIDO: &c&o"
+      description: "&7El plugin solo puede cargar archivos &e.yml"
+    configuration:
+      name: "&4&l✦ CONFIGURACIÓN INVÁLIDA: &c&o"
+      description: "&7Debes editar tu archivo de configuración"
+      freeLimit: "&7Asegúrate también de no haber alcanzado el límite de la versión gratuita"
+  new:
+    name: "&a&l➕ &aNuevo"
+  page:
+    name: " - Página "
+    next:
+      name: "&dSiguiente página &5&l▶"
+    previous:
+      name: "&5&l◀ &dPágina anterior"
+  path:
+    name: "&6&l✦ &eRUTA:"
+    description: ["&8&oHaz clic aquí para volver", "&8&oa la carpeta anterior"]
+  premade:
+    premium:
+      name: "&5&l✚ &d%object% Premium Predeterminado"
+    packs:
+      name: "&5&l✚ &d%object% de Paquetes Personalizados"
+  premium:
+    description: "&5&l❂ &d&lSolo Premium &5&l❂"
+    requirePremiumToAddMore: "&cREQUIERE PREMIUM: para agregar más de %limit% %object% necesitas la versión premium"
+  reset:
+    name: "&4&l✘ &cRestablecer"
+    description:
+      - ""
+      - "&c&oHaz clic aquí para restablecer"
+      - "&c&otodas las opciones de esta creación"
+  save:
+    name: "&a&l✔ &aGuardar"
+    description:
+      - ""
+      - "&a&oHaz clic aquí para guardar"
+      - "&a&otu configuración!"
+  title:
+    color: "&e&l"
+  currently:
+    name: "&7✦ Actualmente:"

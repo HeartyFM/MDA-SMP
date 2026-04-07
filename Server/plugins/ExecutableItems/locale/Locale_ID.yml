@@ -1,0 +1,34 @@
+errorUPDItem: '&7[&4Executable&7Items] &cKamu telah mencapai batas penggunaan harian
+  untuk &e%item%&c. Maksimum per hari: &7(&e%max_use_per_day_item%&7)'
+requiredEIQuantity: ' &cx &6'
+cancelCraft: '&8[&4Executable&7Items&8] &cKamu tidak bisa membuat item ini dengan
+  crafting!'
+disableWorld: '&8[&4Executable&7Items&8] &cKamu tidak bisa menggunakan &e%item%&c
+  di dunia ini!'
+use: '&7&oSisa penggunaan: '
+receiveItem: '&8[&aExecutable&7Items&8] &aKamu menerima &a%quantity%x &e%item%'
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem(s) &e%id% &adi inventaris pemain
+  &e%player% &atelah berhasil direset!'
+pickupLimitMessage: '&8[&4Executable&7Items&8] &cKamu tidak bisa memiliki lebih dari
+  %limit% ExecutableItems!'
+noOwner: '&cTidak ada pemilik'
+noHit: '&8[&4Executable&7Items&8] &cTidak ada pemain yang terkena'
+giveMessage: '&8[&aExecutable&7Items&8] &aKamu telah memberikan kepada &e&n%player%&r
+  &a%quantity%x &e%item%'
+requiredEIFirstPart: '&4ExecutableItem yang dibutuhkan: '
+requiredItemsSeparator: '&c | '
+requiredItemsQuantity: ' &cx &6'
+customCommandDamageKillMessage: '%player% menghancurkan %target% dengan %item%'
+requiredItemsFirstPart: '&4Item yang dibutuhkan: '
+requirePermission: '&8[&4Executable&7Items&8] &cKamu tidak memiliki izin untuk menggunakan
+  &e%item%&c!'
+requiredEISeparator: '&c | '
+invalidOwner: '&8[&4Executable&7Items&8] &cItem ini hanya dapat digunakan oleh pemiliknya!'
+requiredLevel: '&8[&4Executable&7Items&8] &cKamu harus minimal &6level &6&l%level%&c
+  untuk menggunakan item ini!'
+errorUPDActivator: '&8[&4Executable&7Items&8]&c Kamu telah mencapai batas penggunaan
+  harian untuk &e%activator%&c! Maksimum per hari: &7(&e%max_use_per_day_activator%&7)&4'
+noEntityHit: '&8[&4Executable&7Items&8] &cTidak ada entitas yang terkena'
+timeLeft: '&8[&4Executable&7Items&8] &cTunggu &e%time% &csebelum menggunakan &6%activator%&c!'
+fullInventory: '&8[&4Executable&7Items&8] &cInventarismu penuh, &e%item% &cterjatuh.'
+waitProjectile: '&cKamu harus menunggu proyektil mengenai sesuatu!'

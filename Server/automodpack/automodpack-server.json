@@ -1,0 +1,37 @@
+{
+  "DO_NOT_CHANGE_IT": 2,
+  "modpackName": "",
+  "modpackHost": true,
+  "generateModpackOnStart": true,
+  "syncedFiles": [
+    "/mods/*.jar",
+    "/kubejs/**",
+    "!/kubejs/server_scripts/**",
+    "/emotes/*"
+  ],
+  "allowEditsInFiles": [
+    "/options.txt",
+    "/config/**"
+  ],
+  "autoExcludeServerSideMods": true,
+  "autoExcludeUnnecessaryFiles": true,
+  "requireAutoModpackOnClient": true,
+  "nagUnModdedClients": true,
+  "nagMessage": "This server provides dedicated modpack through AutoModpack!",
+  "nagClickableMessage": "Click here to get the AutoModpack!",
+  "nagClickableLink": "https://modrinth.com/project/automodpack",
+  "bindAddress": "",
+  "bindPort": -1,
+  "addressToSend": "",
+  "localAddressToSend": "",
+  "portToSend": -1,
+  "disableInternalTLS": false,
+  "updateIpsOnEveryStart": false,
+  "bandwidthLimit": 0,
+  "validateSecrets": true,
+  "secretLifetime": 336,
+  "selfUpdater": false,
+  "acceptedLoaders": [
+    "forge"
+  ]
+}

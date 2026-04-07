@@ -1,0 +1,70 @@
+editor:
+  back:
+    name: "&4&l⬅ &cZurück"
+  creation:
+    id:
+      name: "&2&l✚ &a&lErstellungs-ID:"
+  delete:
+    name: "&4&l✘ &cLöschen"
+    normal:
+      description: "&4&lX &cKlicke hier zum Löschen"
+    shift:
+      left:
+        description: "&4&lX &cShift + Linksklick zum Löschen"
+      description: "&4&lX &cShift + Klick zum Löschen"
+    message: "&cHey, wenn du %object% löschen möchtest"
+  edit:
+    description: "&a✎ Klicke hier zum Ändern"
+  exit:
+    name: "&4&l✘ &cBeenden"
+  folder:
+    name: "&2&l✦ ORDNER: &a"
+    description: ["", "&7Klicke hier, um den Ordner zu öffnen"]
+  give:
+    shift:
+      right:
+        description: "&2✔ &aShift + Rechtsklick, um es dir selbst zu geben"
+    receivedMessage: "&aDu hast &eerhalten"
+  invalid:
+    file:
+      name: "&4&l✦ UNGÜLTIGE DATEI: &c&o"
+      description: "&7Das Plugin kann nur &e.yml &7Dateien laden"
+    configuration:
+      name: "&4&l✦ UNGÜLTIGE KONFIGURATION: &c&o"
+      description: "&7Du solltest deine Konfigurationsdatei bearbeiten"
+      freeLimit: "&7Stelle auch sicher, dass du das Limit der kostenlosen Version nicht überschritten hast"
+  new:
+    name: "&a&l➕ &aNeu"
+  page:
+    name: " - Seite "
+    next:
+      name: "&dNächste Seite &5&l▶"
+    previous:
+      name: "&5&l◀ &dVorherige Seite"
+  path:
+    name: "&6&l✦ &ePFAD:"
+    description: ["&8&oKlicke hier, um zurückzukehren", "&8&ozum vorherigen Ordner"]
+  premade:
+    premium:
+      name: "&5&l✚ &dStandard Premium %object%"
+    packs:
+      name: "&5&l✚ &d%object% aus benutzerdefinierten Paketen"
+  premium:
+    description: "&5&l❂ &d&lNur Premium &5&l❂"
+    requirePremiumToAddMore: "&cPREMIUM ERFORDERLICH: Um mehr als %limit% %object% hinzuzufügen, benötigst du die Premium-Version"
+  reset:
+    name: "&4&l✘ &cZurücksetzen"
+    description:
+      - ""
+      - "&c&oKlicke hier, um zurückzusetzen"
+      - "&c&oalle Optionen dieser Erstellung"
+  save:
+    name: "&a&l✔ &aSpeichern"
+    description:
+      - ""
+      - "&a&oKlicke hier zum Speichern"
+      - "&a&odeiner Konfiguration!"
+  title:
+    color: "&e&l"
+  currently:
+    name: "&7✦ Aktuell:"

@@ -1,0 +1,14 @@
+recipes.remove(<item:ironchest:iron_chest>);
+recipes.remove(<item:ironchest:gold_chest>);
+recipes.remove(<item:ironchest:diamond_chest>);
+recipes.remove(<item:ironchest:copper_chest>);
+recipes.remove(<item:ironchest:crystal_chest>);
+recipes.remove(<item:ironchest:obsidian_chest>);
+recipes.remove(<item:ironchest:dirt_chest>);
+recipes.remove(<item:ironchest:trapped_iron_chest>);
+recipes.remove(<item:ironchest:trapped_gold_chest>);
+recipes.remove(<item:ironchest:trapped_diamond_chest>);
+recipes.remove(<item:ironchest:trapped_copper_chest>);
+recipes.remove(<item:ironchest:trapped_crystal_chest>);
+recipes.remove(<item:ironchest:trapped_obsidian_chest>);
+recipes.remove(<item:ironchest:trapped_dirt_chest>);

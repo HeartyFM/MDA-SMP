@@ -1,0 +1,14 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "paginas_del_diario"
+	group: "5D7D2094940A99C3"
+	icon: "create:clipboard"
+	id: "7D66C88653AF3081"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Aqui las paginas recoleptadas del cientifico"]
+	title: "Paginas del Diario"
+}

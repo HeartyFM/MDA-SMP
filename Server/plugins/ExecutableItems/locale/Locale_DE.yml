@@ -1,0 +1,35 @@
+errorUPDItem: '&4&l[ExecutableItems] &cError du hast die max. Verwendungen pro Tag
+  (%max_use_per_day_item%) für %item% erreicht'
+requiredEIQuantity: ' &cx &6'
+cancelCraft: '&4&l[ExecutableItems] &cDu kannst mit ExecutableItems nichts herstellen.'
+disableWorld: '&4&l[ExecutableItems] &cDu kannst dieses ExecuteableItem in dieser
+  Welt nicht verwenden'
+use: '&7&oVerbleibende Verwendungen: '
+receiveItem: '&a&l[ExecutableItems] &aDu hast &e%quantity% &ax &e%item% &aerhalten'
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem(s) &e%id% &ain the inventory
+  of player(s) &e%player% &ais/are correctly reset !'
+pickupLimitMessage: '&4&l[ExecutableItems] &cDu kannst nicht mehr als %limit% ExecutableItems
+  haben'
+noOwner: '&cKein Besitzer'
+noHit: '&c&l[ExecutableItems] &cEs wurde kein Spieler getroffen'
+giveMessage: '&a&l[ExecutableItems] &aDu hast &e%player% &6%quantity% &amal &e%item%
+  &agegeben'
+requiredEIFirstPart: '&4Benötigte(s) ExecutableItem(s): '
+requiredItemsSeparator: '&c | '
+requiredItemsQuantity: ' &cx &6'
+customCommandDamageKillMessage: '%player% töte %target% mit %item%'
+requiredItemsFirstPart: '&4Benötigte(s) Item(s): '
+requirePermission: '&c&l[ExecutableItems] &cDu hast keine Berechtigung dieses Item
+  zu verwenden!'
+requiredEISeparator: '&c | '
+invalidOwner: '&4&l[ExecutableItems] &cDu kannst dieses Item nicht benutzen, da du
+  nicht sein Besitzer bist!'
+requiredLevel: '&4&l[ExecutableItems] &cDu hast keine: &6%level% &cLevel!'
+errorUPDActivator: '&4&l[ExecutableItems] &cError du hast die max. Verwendungen pro
+  Tag (%max_use_per_day_item%) für %activator% erreicht'
+noEntityHit: '&c&l[ExecutableItems] &cEs wurde kein Entity getroffen'
+timeLeft: '&c&l[ExecutableItems] &cDu kannst %activator% &cdieses Items für &e%time%
+  nicht verwenden'
+fullInventory: '&c&l[ExecutableItems] &cDein Inventar ist voll. Das Item &6%item%
+  &cwurde vor deine Füße gelegt'
+waitProjectile: '&cDu musst warten, das Projektil hat noch nichts getroffen!'

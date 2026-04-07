@@ -1,0 +1,1807 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "funkos"
+	group: "5F35326793D1F6AE"
+	icon: "minepop:minepop_steve"
+	id: "3CDAF0DA83DCE238"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7D3A7F438B978B2D"
+			rewards: [{
+				id: "64FD5771FE0BE361"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "2EAFFFDACB15427C"
+				item: "minepop:minepop_steve"
+				type: "item"
+			}]
+			title: "Serie's Minecraft"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minepop:minepop_naruto"
+			id: "0627A5FB27694D7B"
+			rewards: [{
+				id: "7FA980D2B3F54505"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "0D2720559D948F51"
+				item: "minepop:minepop_naruto"
+				type: "item"
+			}]
+			title: "Serie's Naruto"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "minepop:minepop_dream"
+			id: "4DA55FA91EBE30BF"
+			rewards: [{
+				id: "7C956B6EF36B8874"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "767AEC1DC63560C1"
+				item: "minepop:minepop_dream"
+				type: "item"
+			}]
+			title: "Serie's Youtubers (gringos)"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: "minepop:minepop_tanjiro"
+			id: "7190C02A632B0DB9"
+			rewards: [{
+				id: "58D6F38D38DAC6FB"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "0BC049E224EEDCE8"
+				item: "minepop:minepop_tanjiro"
+				type: "item"
+			}]
+			title: "Serie's Demon Slayer"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon: "minepop:minepop_deadpool"
+			id: "2A81AD6CDB81AEBC"
+			rewards: [{
+				id: "0174D516AF00FA8C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "1219D2428F15DD87"
+				item: "minepop:minepop_deadpool"
+				type: "item"
+			}]
+			title: "Serie's Marvel"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: "minepop:minepop_eren"
+			id: "153DE8076F9E2E60"
+			rewards: [{
+				id: "6B64222CFC037605"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "7291ECA5D12138B6"
+				item: "minepop:minepop_eren"
+				type: "item"
+			}]
+			title: "Serie's Attack On Titans"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			icon: "minepop:minepop_joker"
+			id: "2F5D9BADD28E4B9A"
+			rewards: [{
+				id: "5C7287FBE22E6276"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "55AACE99CC004C19"
+				item: "minepop:minepop_joker"
+				type: "item"
+			}]
+			title: "Serie's DC"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "13604EDB6020204F"
+			rewards: [{
+				id: "46A68F6477B68412"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "1BCA86D41296A497"
+				item: "minepop:minepop_ssj_goku"
+				type: "item"
+			}]
+			title: "Serie's Dragon Ball"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "680052E2955C6FAA"
+			rewards: [{
+				id: "596C82938C0FEFDF"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "0E853A240BE33FF7"
+				item: "minepop:minepop_r_2_d_2"
+				type: "item"
+			}]
+			title: "Serie's Star Wars"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "2BC2B4E385651310"
+			rewards: [{
+				id: "00EFAB25B6D19BF3"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "20C386591EDCB1DE"
+				item: "minepop:minepop_luffy"
+				type: "item"
+			}]
+			title: "Serie's One Piece"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: "minepop:minepop_kirito"
+			id: "793A220605CBCCF0"
+			rewards: [{
+				id: "055465CA49D7BDDF"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "094FDC6EB79EC926"
+				item: "minepop:minepop_kirito"
+				type: "item"
+			}]
+			title: "Serie's Sword Art Online"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D3A7F438B978B2D"]
+			dependency_requirement: "one_completed"
+			id: "1F51A46C71108A3F"
+			rewards: [
+				{
+					id: "7CA64942D1D5A4F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "60A3EADA272991BE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "018E734D3751B865"
+				item: "minepop:minepop_alex"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F51A46C71108A3F"]
+			id: "2EA02B8504E4F2C4"
+			rewards: [
+				{
+					id: "2B40E35462729709"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12975B1049F6C9A1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "1B02A180B9913540"
+				item: "minepop:minepop_zombie"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EA02B8504E4F2C4"]
+			id: "23CC13A0924A76F0"
+			rewards: [
+				{
+					id: "182DF4470B178A9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "474B9AF9A84511C8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "15E73EF6D98B273E"
+				item: "minepop:minepop_skeleton"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["23CC13A0924A76F0"]
+			id: "1F15A1C4C5EE68EF"
+			rewards: [
+				{
+					id: "54EF1DA023FE02CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C7F7964421BBD2C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "28E490F9F94BC063"
+				item: "minepop:minepop_pig"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F15A1C4C5EE68EF"]
+			id: "740086ECA7EEE6C7"
+			rewards: [
+				{
+					id: "7A37645C5AAEAED8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C4AB3301FF684D1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "51B6427938A7D3F9"
+				item: "minepop:minepop_slime"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B5319169093A4EE"]
+			id: "11C59D514FD0E59D"
+			rewards: [{
+				id: "05A62878CB94661C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E753F5ECED8E2F5"
+				item: "minepop:minepop_enderman"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"51B6427938A7D3F9"
+				"740086ECA7EEE6C7"
+			]
+			hide_dependency_lines: false
+			id: "1B5319169093A4EE"
+			rewards: [
+				{
+					id: "35608F9068F890C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "142DD25277474D5A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3FCE723E4D6C34C6"
+				item: "minepop:minepop_pigman"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0627A5FB27694D7B"]
+			id: "2FB4044721000C77"
+			rewards: [
+				{
+					id: "771281FD35C7C736"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "608424039FF8428C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "09D4AC617AA4AD17"
+				item: "minepop:minepop_sakura"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FB4044721000C77"]
+			id: "2428301B1EA50B5C"
+			rewards: [
+				{
+					id: "3C26EDD6CDBC4EA5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7BA775E1B910A98F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "43A0F560D938BBDE"
+				item: "minepop:minepop_sasuke"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2428301B1EA50B5C"]
+			id: "524BA5BC9D54DD30"
+			rewards: [
+				{
+					id: "08841EC28ABACFC2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "189226F0EA59EAF2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3C4CA521F48C16EC"
+				item: "minepop:minepop_pain"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["524BA5BC9D54DD30"]
+			id: "15EF890834D15FD9"
+			rewards: [
+				{
+					id: "6C7B00C18D25B66D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C9BD4444788754D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "4E7D062F5D00CC67"
+				item: "minepop:minepop_kakashi"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15EF890834D15FD9"]
+			id: "237A440F071E2337"
+			rewards: [
+				{
+					id: "41D10A2B45790F9E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55EB1A6CBE5528F8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7CA1276D95A296DE"
+				item: "minepop:minepop_gaara"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["237A440F071E2337"]
+			id: "68DA4571EFD1A4AF"
+			rewards: [
+				{
+					id: "72696F6C79B5933A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "37FE4BD7E59C7B00"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2A9E46C99DE97AAE"
+				item: "minepop:minepop_obito"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["68DA4571EFD1A4AF"]
+			id: "3365567A5C5BE70B"
+			rewards: [{
+				id: "25B59CF969E44DE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51D1C352738A79E4"
+				item: "minepop:minepop_itachi"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3365567A5C5BE70B"]
+			id: "52B2022A71C394A3"
+			rewards: [{
+				id: "2175B2C74408E112"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2793B1C61E1E060F"
+				item: "minepop:minepop_madara"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2A81AD6CDB81AEBC"]
+			dependency_requirement: "one_started"
+			id: "65B00A4EDFCC4745"
+			rewards: [
+				{
+					id: "285DFB0EA92123AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29AC48741DAA2E90"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "22563E0E1692907C"
+				item: "minepop:minepop_ironman"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65B00A4EDFCC4745"]
+			id: "0A841665F4E60752"
+			rewards: [
+				{
+					id: "70F411C34F915BD5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2B7A55F8242ABA7A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2ACF1337527A2AEF"
+				item: "minepop:minepop_black_panther"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A841665F4E60752"]
+			id: "1F10839F164B8A5A"
+			rewards: [
+				{
+					id: "4657D7F6009DDC95"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0CB0F8F122869BFC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "72CD80EE9A07E178"
+				item: "minepop:minepop_captain_america"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F10839F164B8A5A"]
+			id: "4E0EAB0608C7A51C"
+			rewards: [
+				{
+					id: "7A49BDA2783D93DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5B7D36A8AE5B4455"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "597A2C8DEE6B36E6"
+				item: "minepop:minepop_dr_strange"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E0EAB0608C7A51C"]
+			id: "12D6C0A9CE0552DF"
+			rewards: [
+				{
+					id: "0EB13C1CB82F8111"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0172D8A0843F634E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "75AC636822CDBC39"
+				item: "minepop:minepop_spiderman"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["12D6C0A9CE0552DF"]
+			id: "0CF316C77E0E654A"
+			rewards: [
+				{
+					id: "7EDDF061A55B1AFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63ED826D09C353EF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "204310D6FF95FB67"
+				item: "minepop:minepop_thor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CF316C77E0E654A"]
+			dependency_requirement: "one_started"
+			id: "149F0B41008FFD36"
+			rewards: [{
+				id: "3A5DF299629A32DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52B318DD71F93219"
+				item: "minepop:minepop_hulk"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["149F0B41008FFD36"]
+			id: "13B40755DE107441"
+			rewards: [{
+				id: "113E4016B64A341D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4EFE06FF77C982CA"
+				item: "minepop:minepop_thanos"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4DA55FA91EBE30BF"]
+			id: "6A6A93236B73A4CA"
+			rewards: [
+				{
+					id: "7B4929DA67941504"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7842D9334B6EB559"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3B6BE6FBCC3FC2E8"
+				item: "minepop:minepop_dan_tdm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A6A93236B73A4CA"]
+			id: "67B520BD74D908FF"
+			rewards: [
+				{
+					id: "17DD79D181624DB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71E6FBFEFABE2FDE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "4D8EB1DD92F8EE80"
+				item: "minepop:minepop_unspeakable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67B520BD74D908FF"]
+			id: "4960A03C6619EECC"
+			rewards: [
+				{
+					id: "0336F15897180BEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "165420135833F960"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "11C831685E9BDF36"
+				item: "minepop:minepop_tommy_innit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4960A03C6619EECC"]
+			id: "59A5343ECE66E78E"
+			rewards: [
+				{
+					id: "2B99AD211FC45F0E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7D5921A8B75301C7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7B4C596659041E61"
+				item: "minepop:minepop_preston"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["59A5343ECE66E78E"]
+			id: "5F72D50B501471B5"
+			rewards: [
+				{
+					id: "28B2A2E8B7B450C1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D3E7474D6FD8592"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "17BB0DC45C5A4B17"
+				item: "minepop:minepop_captain_sparklez"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F72D50B501471B5"]
+			id: "244D025EA06B6D87"
+			rewards: [
+				{
+					id: "7C2ED98E6B036438"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4C7D47AE981BFD54"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "1BDC8482595B0A6E"
+				item: "minepop:minepop_ld_shadow_lady"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["244D025EA06B6D87"]
+			id: "61F625D63D266A17"
+			rewards: [{
+				id: "731D173AE4C743A6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "090582D5F0C67B9E"
+				item: "minepop:minepop_mr_beast"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["244D025EA06B6D87"]
+			id: "76528CCEDDBF869E"
+			rewards: [{
+				id: "12A1ADF363C6D8FA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "128A04564F477A51"
+				item: "minepop:minepop_techno_blade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7190C02A632B0DB9"]
+			id: "7B36BF5F3E925CF8"
+			rewards: [{
+				id: "4D7E147ADFD6AA62"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7BA2972DE153C414"
+				item: "minepop:minepop_zenitsu"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B36BF5F3E925CF8"]
+			id: "5E604EB7CA77E7FF"
+			rewards: [{
+				id: "511C5ABBB58B49F9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "06ABC55820E156F9"
+				item: "minepop:minepop_inosuke"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E604EB7CA77E7FF"]
+			id: "57EC3760034495E0"
+			rewards: [{
+				id: "453ED75673B20456"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5076163EE8AA8419"
+				item: "minepop:minepop_nezuko"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57EC3760034495E0"]
+			id: "42576D825FEF75E2"
+			rewards: [{
+				id: "1A1225B3B78CEBB3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "10AB180C7DE281DE"
+				item: "minepop:minepop_giyu"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["42576D825FEF75E2"]
+			id: "3CD26FDFDA703298"
+			rewards: [{
+				id: "3C7A05727ADD7986"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3F56B6C6E762CE83"
+				item: "minepop:minepop_rengoku"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3CD26FDFDA703298"]
+			id: "2AEE96CD822AD8FF"
+			tasks: [{
+				id: "78828CD0E7FA2117"
+				item: "minepop:minepop_akaza"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2AEE96CD822AD8FF"]
+			id: "3F0E81AFE67BDE46"
+			tasks: [{
+				id: "0C643720AF1FEED7"
+				item: "minepop:minepop_rio"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3F0E81AFE67BDE46"]
+			id: "59CE6036F33B365F"
+			rewards: [{
+				id: "2EA0B6BEA134E369"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7ED158A7C70CCAB1"
+				item: "minepop:minepop_muzan"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["153DE8076F9E2E60"]
+			id: "0C0D5302D397B8C4"
+			rewards: [{
+				id: "5C9452A74BE1C2F3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "096AE215C89D451C"
+				item: "minepop:minepop_mikasa"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C0D5302D397B8C4"]
+			id: "2ABEACBC3C9ABD22"
+			rewards: [{
+				id: "0019B564387477A0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3E163DE5DE7742D1"
+				item: "minepop:minepop_levi"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2ABEACBC3C9ABD22"]
+			id: "01686D008E2D1E59"
+			rewards: [{
+				id: "61DE17EA4E9EA7F4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6A2D2CFEC7E2FC29"
+				item: "minepop:minepop_armin"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01686D008E2D1E59"]
+			id: "104EAF32A7AD74AE"
+			rewards: [{
+				id: "01213706FB306BBB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1978E05711045A56"
+				item: "minepop:minepop_erwin"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["104EAF32A7AD74AE"]
+			id: "34018C02468F0A09"
+			rewards: [{
+				id: "178AD1EC17EEF3B5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "25096CB6D59561BF"
+				item: "minepop:minepop_annie"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34018C02468F0A09"]
+			id: "65353D768F55648C"
+			tasks: [{
+				id: "4BAF1CD63DCC76E2"
+				item: "minepop:minepop_bertholdt"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["65353D768F55648C"]
+			id: "5F1D8ED75448771E"
+			tasks: [{
+				id: "5A8AD786B9A97D6B"
+				item: "minepop:minepop_reiner"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5F1D8ED75448771E"]
+			id: "2EF0C5BE78CD2F13"
+			rewards: [{
+				id: "4AF8E11DA17CB404"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "476C9423F5675646"
+				item: "minepop:minepop_zeke"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2F5D9BADD28E4B9A"]
+			id: "3C82C7A2A4317C45"
+			tasks: [{
+				id: "66BD28DC506AA71A"
+				item: "minepop:minepop_harley_quinn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C82C7A2A4317C45"]
+			id: "5BB23C2F359C6287"
+			rewards: [{
+				id: "1D4FEDF3A4EAD018"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0D040062CBA61387"
+				item: "minepop:minepop_green_lantern"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BB23C2F359C6287"]
+			id: "184D32986FE26B73"
+			rewards: [{
+				id: "5597B246242DDDFC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "690F96F63B56FFA3"
+				item: "minepop:minepop_wonder_woman"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["184D32986FE26B73"]
+			id: "3D081365D15D0DA4"
+			rewards: [{
+				id: "0B7992FF83A4C28F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6D26654E478517D2"
+				item: "minepop:minepop_aquaman"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3D081365D15D0DA4"]
+			id: "6691A1847E262C2C"
+			rewards: [{
+				id: "4A04B98036C20E05"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7C4D52F7E198DCEF"
+				item: "minepop:minepop_flash"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6691A1847E262C2C"]
+			id: "1B269659C148BCCB"
+			rewards: [{
+				id: "7C4F55832B69A3A4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "70A2AC384E1D9126"
+				item: "minepop:minepop_robin"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1B269659C148BCCB"]
+			id: "66F1E0CEF670E5F8"
+			rewards: [{
+				id: "7AC83E540E92E1C3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "349D67718808DF33"
+				item: "minepop:minepop_superman"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["66F1E0CEF670E5F8"]
+			id: "0A0D2A58B1B8D047"
+			rewards: [{
+				id: "212D571C497C6FA6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5956115ECA786D30"
+				item: "minepop:minepop_batman"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["793A220605CBCCF0"]
+			id: "5898DB053F30C931"
+			tasks: [{
+				id: "1131DA3E556279AF"
+				item: "minepop:minepop_asuna"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5898DB053F30C931"]
+			id: "261332A03A1CE9DB"
+			rewards: [{
+				id: "512014DE6B0D52A5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "11C10AF179D15228"
+				item: "minepop:minepop_klein"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["261332A03A1CE9DB"]
+			id: "28C77271D66E1262"
+			rewards: [{
+				id: "262ACAF3611153CC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2552A4E77B7F6B62"
+				item: "minepop:minepop_leafa"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["28C77271D66E1262"]
+			id: "57DC4BCA0AE4C3CF"
+			rewards: [{
+				id: "7E22DFC3CCA77EB7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4231A42A421F64F9"
+				item: "minepop:minepop_sinon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["57DC4BCA0AE4C3CF"]
+			id: "68424B452A7BC585"
+			rewards: [{
+				id: "23A835D66A1BC58C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1B3FFB3D26F35A3B"
+				item: "minepop:minepop_eugeo"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["68424B452A7BC585"]
+			id: "05EFCD0C9BD6D416"
+			rewards: [{
+				id: "6F24223C8ED8E1C1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5BC8AEF001D33DC9"
+				item: "minepop:minepop_alice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["05EFCD0C9BD6D416"]
+			id: "76DAC3282A7FE32E"
+			rewards: [{
+				id: "700D76B8C6550B3A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "18C2302CC601C261"
+				item: "minepop:minepop_deathgun"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["76DAC3282A7FE32E"]
+			hide: false
+			id: "7151F3FFBF158133"
+			rewards: [{
+				id: "17BDBA71C6989DFF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F9EC71ACB9D8084"
+				item: "minepop:minepop_quinella"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2BC2B4E385651310"]
+			id: "3C9830DE7E3179E3"
+			tasks: [{
+				id: "56249780258E6719"
+				item: "minepop:minepop_blackbeard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C9830DE7E3179E3"]
+			id: "00ACCD1EB86D20C2"
+			rewards: [{
+				id: "17FBBC340C89C4F1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2F200E21C22E839E"
+				item: "minepop:minepop_kinemon"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00ACCD1EB86D20C2"]
+			id: "29C70B13DC4A7CBF"
+			rewards: [{
+				id: "4FC3B845684167BD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "46E902DF101285DF"
+				item: "minepop:minepop_zoro"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29C70B13DC4A7CBF"]
+			id: "737DAC4AF7F345F0"
+			rewards: [{
+				id: "13761168B21E72D1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2880FDF7CBAAA58D"
+				item: "minepop:minepop_sanji"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["737DAC4AF7F345F0"]
+			id: "7720393C65AF92AC"
+			rewards: [{
+				id: "5C80486ADD906920"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4D327730E7BD70B7"
+				item: "minepop:minepop_nami"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7720393C65AF92AC"]
+			id: "5CB6CAB90D2EA002"
+			rewards: [{
+				id: "278271AFA334CDBF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "65E8C1EB5E9EB428"
+				item: "minepop:minepop_akainu"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5CB6CAB90D2EA002"]
+			id: "504931B3754C8A28"
+			rewards: [{
+				id: "047482BE921CF1AB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "43D1AB0CDD06A4A8"
+				item: "minepop:minepop_bigmom"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["504931B3754C8A28"]
+			id: "7717F43C5654A8C1"
+			rewards: [{
+				id: "6276D53F76DC0BE7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "09D04C487D7F9E8F"
+				item: "minepop:minepop_kaido"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["680052E2955C6FAA"]
+			id: "13E841F0C272C5A4"
+			tasks: [{
+				id: "241B0731E4592635"
+				item: "minepop:minepop_palpatine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13E841F0C272C5A4"]
+			id: "33BD86367A9D6325"
+			rewards: [{
+				id: "756C5E137BD1B356"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2A3DB9D36458D2B0"
+				item: "minepop:minepop_obiwan_kenobi"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33BD86367A9D6325"]
+			id: "584D03BA7F5E5EC4"
+			rewards: [{
+				id: "6C7D412E1FD409E2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2B2F6937C5680C7E"
+				item: "minepop:minepop_luke_skywalker"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["584D03BA7F5E5EC4"]
+			id: "61AC51A38B8769A5"
+			rewards: [{
+				id: "7A8D470F88C478A0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "17B8A5523BD8CAC4"
+				item: "minepop:minepop_princess_leia"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61AC51A38B8769A5"]
+			id: "6DE777615D337C38"
+			rewards: [{
+				id: "379643CEC5136B43"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "565D62F385B825C2"
+				item: "minepop:minepop_chewbacca"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6DE777615D337C38"]
+			id: "1757CEDC57A60CD5"
+			rewards: [{
+				id: "13D9DD0911948007"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2BDA94FF12AE352F"
+				item: "minepop:minepop_boba_fett"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["47AED2962C4539A4"]
+			id: "6A989F6BE992BE27"
+			rewards: [{
+				id: "035AEB47A46A8F9A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2A8AA3E32FFB31D9"
+				item: "minepop:minepop_darth_vader"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1757CEDC57A60CD5"]
+			id: "47AED2962C4539A4"
+			rewards: [{
+				id: "52924273675D3D89"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "08A07F9B93288543"
+				item: "minepop:minepop_yoda"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13604EDB6020204F"]
+			id: "37C44396401DDF15"
+			tasks: [{
+				id: "7FD9E25C5CCCA4E6"
+				item: "minepop:minepop_ssj_gohan"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37C44396401DDF15"]
+			id: "25BA87010790F970"
+			rewards: [{
+				id: "623D1FE8CA4DDD1E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6E3A823C0BA92FE5"
+				item: "minepop:minepop_ssj_vegeta"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25BA87010790F970"]
+			id: "7088E35DC16CB3D8"
+			rewards: [{
+				id: "0020F4A3023BF963"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4AE8937161FF4174"
+				item: "minepop:minepop_ssj_trunks"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7088E35DC16CB3D8"]
+			id: "051E9252DDAE693E"
+			rewards: [{
+				id: "4E35EE19A4FCE194"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4EC434F4DA23BB4E"
+				item: "minepop:minepop_krillin"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["051E9252DDAE693E"]
+			id: "6B06AA52F4A51483"
+			rewards: [{
+				id: "7F1949617B0053AE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "44DE348B561B360A"
+				item: "minepop:minepop_picolo"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6B06AA52F4A51483"]
+			id: "557A96670B20ABF7"
+			rewards: [{
+				id: "4558C83B932AAAF4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "23266573E8DDDCAF"
+				item: "minepop:minepop_frieza"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["557A96670B20ABF7"]
+			id: "32862D6F41CA249F"
+			rewards: [{
+				id: "302EDE676754D099"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6111522B9B689DDA"
+				item: "minepop:minepop_cell"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["32862D6F41CA249F"]
+			id: "5F8A1879FD810D22"
+			rewards: [{
+				id: "766F9B2AA9BE2AAE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1B61DF0714F20DB7"
+				item: "minepop:minepop_buu"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"13B40755DE107441"
+				"52B2022A71C394A3"
+				"11C59D514FD0E59D"
+				"76528CCEDDBF869E"
+				"61F625D63D266A17"
+				"59CE6036F33B365F"
+				"2EF0C5BE78CD2F13"
+				"0A0D2A58B1B8D047"
+				"7151F3FFBF158133"
+				"7717F43C5654A8C1"
+				"6A989F6BE992BE27"
+				"5F8A1879FD810D22"
+			]
+			description: [
+				"Habra un recompensa para el primero que complete todas las colecciones de Funkos."
+				""
+				"&lEsta recompensa sera:&r"
+				""
+				"&a80 Niveles de XP&r "
+				""
+				"&6&lFunko Dorado Tuyo&r"
+				""
+				"Para el Primero que complete todas las colecciones se le hara un Funko totalmente personalizado de el, Bañado en oro. Con un uso real dentro del juego. y que te otorgara cosas como un &6&lNametag dorado.&r Y El efecto &6&lMidas&r por un dia. Todo lo que toques se hara oro"
+			]
+			hide_dependency_lines: true
+			icon: "minepop:randombox"
+			id: "2A2B940050336B51"
+			rewards: [
+				{
+					advancement: "minecraft:story/root"
+					criterion: "El Funko podra ser. O de tu Skin. O de otro personaje de otra seria que tu quieras"
+					icon: "minepop:randombox"
+					id: "3DD0F8542B64570E"
+					tags: ["1"]
+					title: "&6&lFunko Dorado TUYO!!"
+					type: "advancement"
+				}
+				{
+					id: "65456ECA19A7020E"
+					type: "xp_levels"
+					xp_levels: 80
+				}
+			]
+			shape: "octagon"
+			size: 4.0d
+			subtitle: "LOS HAZ COMPLETADO TODOS"
+			title: "&6&lColepcion completa..."
+			x: 10.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Funkos!!!"]
+	title: "Funkos"
+}

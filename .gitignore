@@ -1,0 +1,13 @@
+world/
+world_nether/
+world_the_end/
+logs/
+crash-reports/
+debug/
+.arclight/
+modernfix/
+libraries/
+*.tmp
+*.log
+session.lock
+*.class

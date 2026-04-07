@@ -1,0 +1,36 @@
+errorUPDItem: '&7[&4Executable&7Items] &cआपने &e%item%&c के लिए दैनिक उपयोग सीमा पार
+  कर ली है। प्रतिदिन अधिकतम: &7(&e%max_use_per_day_item%&7)'
+requiredEIQuantity: ' &cx &6'
+cancelCraft: '&8[&4Executable&7Items&8] &cआप इस आइटम को क्राफ्ट नहीं कर सकते!'
+disableWorld: '&8[&4Executable&7Items&8] &cआप इस दुनिया में &e%item%&c का उपयोग नहीं
+  कर सकते!'
+use: '&7&oबचे हुए उपयोग: '
+receiveItem: '&8[&aExecutable&7Items&8] &aआपको प्राप्त हुआ &a%quantity%x &e%item%'
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem(s) &e%id% &aखिलाड़ी &e%player%
+  &aकी इन्वेंट्री में सफलतापूर्वक रीसेट कर दिए गए हैं!'
+pickupLimitMessage: '&8[&4Executable&7Items&8] &cआप %limit% से अधिक ExecutableItems
+  नहीं रख सकते!'
+noOwner: '&cकोई मालिक नहीं'
+noHit: '&8[&4Executable&7Items&8] &cकोई खिलाड़ी हिट नहीं हुआ'
+giveMessage: '&8[&aExecutable&7Items&8] &aआपने &e&n%player%&r को &a%quantity%x &e%item%
+  &aदिया है'
+requiredEIFirstPart: '&4आवश्यक ExecutableItem: '
+requiredItemsSeparator: '&c | '
+requiredItemsQuantity: ' &cx &6'
+customCommandDamageKillMessage: '%player% ने %target% को %item% से नष्ट कर दिया'
+requiredItemsFirstPart: '&4आवश्यक आइटम: '
+requirePermission: '&8[&4Executable&7Items&8] &cइस आइटम का उपयोग करने के लिए आपके
+  पास अनुमति नहीं है: &e%item%&c!'
+requiredEISeparator: '&c | '
+invalidOwner: '&8[&4Executable&7Items&8] &cयह आइटम केवल इसके मालिक द्वारा उपयोग किया
+  जा सकता है!'
+requiredLevel: '&8[&4Executable&7Items&8] &cइस आइटम का उपयोग करने के लिए आपका स्तर
+  कम से कम &6level &6&l%level%&c होना चाहिए!'
+errorUPDActivator: '&8[&4Executable&7Items&8]&c आपने &e%activator%&c के लिए दैनिक
+  उपयोग सीमा पार कर ली है! प्रतिदिन अधिकतम: &7(&e%max_use_per_day_activator%&7)&4'
+noEntityHit: '&8[&4Executable&7Items&8] &cकोई इकाई हिट नहीं हुई'
+timeLeft: '&8[&4Executable&7Items&8] &cकृपया प्रतीक्षा करें &e%time% &cपहले आप &6%activator%
+  &cका उपयोग करें!'
+fullInventory: '&8[&4Executable&7Items&8] &cआपकी इन्वेंट्री भर चुकी है, &e%item% &cगिर
+  गया।'
+waitProjectile: '&cकृपया तब तक प्रतीक्षा करें जब तक प्रोजेक्टाइल किसी वस्तु से न टकराए!'

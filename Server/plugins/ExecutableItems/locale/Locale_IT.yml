@@ -1,0 +1,32 @@
+errorUPDItem: '&7[&4Executable&7Items] &cHai raggiunto il numero massimo di utilizzi
+  per &e%item%&c. Utilizzi massimi per giorno: &7(&e%max_use_per_day_item%&7)'
+requiredEIQuantity: ' &cx &6'
+cancelCraft: '&8[&4Executable&7Items&8] &cNon puoi craftare con questo ExecutableItem!'
+disableWorld: '&8[&4Executable&7Items&8] &cNon puoi usare &e%item%&c in questo mondo!'
+use: '&7&oUtilizzi rimanenti: '
+receiveItem: '&8[&aExecutable&7Items&8] &aHai ricevuto &a%quantity%x &e%item%'
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem/i &e%id% &anel inventario del/dei
+  giocatore/i &e%player% &asono stati correttamente ripristinati!'
+pickupLimitMessage: '&8[&4Executable&7Items&8] &cNon puoi avere più di %limit% ExecutableItems!'
+noOwner: '&cNessun proprietario'
+noHit: '&8[&4Executable&7Items&8] &cNessun giocatore è stato colpito'
+giveMessage: '&8[&aExecutable&7Items&8] &aHai dato a &e&n%player%&r &a%quantity%x
+  &e%item%'
+requiredEIFirstPart: '&4ExecutableItem richiesto/i: '
+requiredItemsSeparator: '&c | '
+requiredItemsQuantity: ' &cx &6'
+customCommandDamageKillMessage: '%player% ha distrutto %target% con %item%'
+requiredItemsFirstPart: '&4Oggetto/i richiesto/i: '
+requirePermission: '&8[&4Executable&7Items&8] &cNon hai il permesso per usare &e%item%&c!'
+requiredEISeparator: '&c | '
+invalidOwner: '&8[&4Executable&7Items&8] &cQuesto oggetto può essere usato solo dal
+  proprietario!'
+requiredLevel: '&8[&4Executable&7Items&8] &cDevi essere almeno al &6livello &6&l%level%&c
+  per usare questo oggetto!'
+errorUPDActivator: '&8[&4Executable&7Items&8]&c Hai raggiunto il numero massimo di
+  utilizzi per &e%activator%&c! Utilizzi massimi per giorno: &7(&e%max_use_per_day_activator%&7)&4'
+noEntityHit: '&8[&4Executable&7Items&8] &cNessuna entità è stata colpita'
+timeLeft: '&8[&4Executable&7Items&8] &cAttendi &e%time% &cprima di usare &6%activator%&c!'
+fullInventory: '&8[&4Executable&7Items&8] &cIl tuo inventario è pieno, &e%item% &cè
+  stato droppato.'
+waitProjectile: '&cDevi aspettare che il proiettile colpisca qualcosa!'

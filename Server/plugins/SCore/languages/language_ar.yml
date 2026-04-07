@@ -1,0 +1,70 @@
+editor:
+  back:
+    name: "&4&l⬅ &cرجوع"
+  creation:
+    id:
+      name: "&2&l✚ &a&lمعرف الإنشاء:"
+  delete:
+    name: "&4&l✘ &cحذف"
+    normal:
+      description: "&4&lX &cانقر هنا للحذف"
+    shift:
+      left:
+        description: "&4&lX &cShift + نقرة يسار للحذف"
+      description: "&4&lX &cShift + نقرة للحذف"
+    message: "&cمرحباً، إذا كنت تريد حذف %object%"
+  edit:
+    description: "&a✎ انقر هنا للتغيير"
+  exit:
+    name: "&4&l✘ &cخروج"
+  folder:
+    name: "&2&l✦ مجلد: &a"
+    description: ["", "&7انقر هنا لفتح المجلد"]
+  give:
+    shift:
+      right:
+        description: "&2✔ &aShift + نقرة يمين لإعطاء نفسك"
+    receivedMessage: "&aلقد استلمت &e"
+  invalid:
+    file:
+      name: "&4&l✦ ملف غير صالح: &c&o"
+      description: "&7البلجن يمكنه تحميل ملفات &e.yml &7فقط"
+    configuration:
+      name: "&4&l✦ تكوين غير صالح: &c&o"
+      description: "&7يجب عليك تعديل ملف التكوين الخاص بك"
+      freeLimit: "&7تأكد أيضاً من أنك لم تتجاوز حد النسخة المجانية"
+  new:
+    name: "&a&l➕ &aجديد"
+  page:
+    name: " - صفحة "
+    next:
+      name: "&dالصفحة التالية &5&l▶"
+    previous:
+      name: "&5&l◀ &dالصفحة السابقة"
+  path:
+    name: "&6&l✦ &eالمسار:"
+    description: ["&8&oانقر هنا للعودة", "&8&oإلى المجلد السابق"]
+  premade:
+    premium:
+      name: "&5&l✚ &d%object% الأساسي المميز"
+    packs:
+      name: "&5&l✚ &d%object% من الحزم المخصصة"
+  premium:
+    description: "&5&l❂ &d&lللنسخة المميزة فقط &5&l❂"
+    requirePremiumToAddMore: "&cيتطلب النسخة المميزة: لإضافة أكثر من %limit% %object% تحتاج إلى النسخة المميزة"
+  reset:
+    name: "&4&l✘ &cإعادة تعيين"
+    description:
+      - ""
+      - "&c&oانقر هنا لإعادة تعيين"
+      - "&c&oجميع خيارات هذا الإنشاء"
+  save:
+    name: "&a&l✔ &aحفظ"
+    description:
+      - ""
+      - "&a&oانقر هنا لحفظ"
+      - "&a&oالتكوين الخاص بك!"
+  title:
+    color: "&e&l"
+  currently:
+    name: "&7✦ حالياً:"

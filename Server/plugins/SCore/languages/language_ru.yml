@@ -1,0 +1,70 @@
+editor:
+  back:
+    name: "&4&l⬅ &cНазад"
+  creation:
+    id:
+      name: "&2&l✚ &a&lID создания:"
+  delete:
+    name: "&4&l✘ &cУдалить"
+    normal:
+      description: "&4&lX &cНажмите здесь, чтобы удалить"
+    shift:
+      left:
+        description: "&4&lX &cShift + ЛКМ для удаления"
+      description: "&4&lX &cShift + Клик для удаления"
+    message: "&cЕсли вы хотите удалить %object%"
+  edit:
+    description: "&a✎ Нажмите для изменения"
+  exit:
+    name: "&4&l✘ &cВыход"
+  folder:
+    name: "&2&l✦ ПАПКА: &a"
+    description: ["", "&7Нажмите, чтобы открыть папку"]
+  give:
+    shift:
+      right:
+        description: "&2✔ &aShift + ПКМ чтобы выдать себе"
+    receivedMessage: "&aВы получили &e"
+  invalid:
+    file:
+      name: "&4&l✦ НЕВЕРНЫЙ ФАЙЛ: &c&o"
+      description: "&7Плагин может загружать только &e.yml &7файлы"
+    configuration:
+      name: "&4&l✦ НЕВЕРНАЯ КОНФИГУРАЦИЯ: &c&o"
+      description: "&7Вам нужно отредактировать файл конфигурации"
+      freeLimit: "&7Также убедитесь, что вы не достигли лимита бесплатной версии"
+  new:
+    name: "&a&l➕ &aНовый"
+  page:
+    name: " - Страница "
+    next:
+      name: "&dСледующая страница &5&l▶"
+    previous:
+      name: "&5&l◀ &dПредыдущая страница"
+  path:
+    name: "&6&l✦ &eПУТЬ:"
+    description: ["&8&oНажмите здесь, чтобы вернуться", "&8&oв предыдущую папку"]
+  premade:
+    premium:
+      name: "&5&l✚ &dСтандартный Премиум %object%"
+    packs:
+      name: "&5&l✚ &d%object% из пользовательских наборов"
+  premium:
+    description: "&5&l❂ &d&lТолько для Премиум &5&l❂"
+    requirePremiumToAddMore: "&cТРЕБУЕТСЯ ПРЕМИУМ: для добавления более %limit% %object% нужна премиум версия"
+  reset:
+    name: "&4&l✘ &cСброс"
+    description:
+      - ""
+      - "&c&oНажмите здесь, чтобы сбросить"
+      - "&c&oвсе настройки этого создания"
+  save:
+    name: "&a&l✔ &aСохранить"
+    description:
+      - ""
+      - "&a&oНажмите здесь, чтобы сохранить"
+      - "&a&oвашу конфигурацию!"
+  title:
+    color: "&e&l"
+  currently:
+    name: "&7✦ В настоящее время:"

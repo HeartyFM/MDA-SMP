@@ -1,0 +1,31 @@
+errorUPDItem: '&7[&4Executable&7Items] &cYou'
+requiredEIQuantity: ' &cx &6'
+cancelCraft: '&8[&4Executable&7Items&8] &cYou can''t craft with this ExecutableItem!'
+disableWorld: '&8[&4Executable&7Items&8] &cYou cant use &e%item%&c in this world!'
+use: '&7&oRemaining uses: '
+receiveItem: '&8[&aExecutable&7Items&8] &aYou have received &a%quantity%x &e%item%'
+refreshValid: '&2&l[ExecutableItems] &aExecutableItem(s) &e%id% &ain the inventory
+  of player(s) &e%player% &ais/are correctly reset !'
+pickupLimitMessage: '&8[&4Executable&7Items&8] &cYou cant have more than %limit% ExecutableItems!'
+noOwner: '&cNo owner'
+noHit: '&8[&4Executable&7Items&8] &cNo player has been hit'
+giveMessage: '&8[&aExecutable&7Items&8] &aYou have given &e&n%player%&r &a%quantity%x
+  &e%item%'
+requiredEIFirstPart: '&4Required ExecutableItem(s): '
+requiredItemsSeparator: '&c | '
+requiredItemsQuantity: ' &cx &6'
+customCommandDamageKillMessage: '%player% destroyed %target% with %item%'
+requiredItemsFirstPart: '&4Required Item(s): '
+requirePermission: '&8[&4Executable&7Items&8] &cYou do not have the permission to
+  use &e%item%&c!'
+requiredEISeparator: '&c | '
+invalidOwner: '&8[&4Executable&7Items&8] &cThis item can only be used by the player
+  that owns this item!'
+requiredLevel: '&8[&4Executable&7Items&8] &cYou need to be at least &6level &6&l%level%&c
+  to use this item!'
+errorUPDActivator: '&8[&4Executable&7Items&8]&c You'
+noEntityHit: '&8[&4Executable&7Items&8] &cNo entity has been hit'
+timeLeft: '&8[&4Executable&7Items&8] &cWait &e%time% &cbefore using &6%activator%&c!'
+fullInventory: '&8[&4Executable&7Items&8] &cYour inventory is full, &e%item% &cgot
+  dropped.'
+waitProjectile: '&cYou must wait for the projectile to hit something!'
